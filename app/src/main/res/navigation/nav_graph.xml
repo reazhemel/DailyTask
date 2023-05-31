@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dailyTaskListFragment">
+
+    <fragment
+        android:id="@+id/dailyTaskListFragment"
+        android:name="com.example.dailytask.ui.fragment.tasklist.DailyTaskListFragment"
+        android:label="DailyTaskListFragment" >
+        <action
+            android:id="@+id/action_dailyTaskListFragment_to_planTaskFragment"
+            app:destination="@id/planTaskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/planTaskFragment"
+        android:name="com.example.dailytask.ui.fragment.plantask.PlanTaskFragment"
+        android:label="PlanTaskFragment" />
+</navigation>

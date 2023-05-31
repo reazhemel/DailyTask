@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Daily Task</string>
+    <string name="plan_your_task_title">Plan Your Task</string>
+    <string name="all_tasks">All Tasks</string>
+
+    <string name="task_name"><strike>%s</strike></string>
+</resources>
